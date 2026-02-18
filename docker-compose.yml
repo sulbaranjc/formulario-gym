@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  web:
+    image: php:8.2-apache
+    container_name: gym-form-app
+    ports:
+      - "80:80"
+    volumes:
+      - ./src:/var/www/html
+    restart: unless-stopped
