@@ -1,3 +1,4 @@
+
 <?php
 $nombre = isset($_POST['nombre']) ? htmlspecialchars($_POST['nombre']) : '';
 $sexo = isset($_POST['sexo']) ? $_POST['sexo'] : '';
